@@ -1,0 +1,26 @@
+.header .logo {
+    color: #2E2F42;
+}
+
+.nav ul li a {
+    font-weight: 500;
+}
+
+.address ul li a {
+    font-weight: 400;
+    font-style: normal;
+    color: #434455;
+    letter-spacing: 0.02em;
+}
+
+.nav ul li a:hover,
+.address ul li a:hover,
+.nav ul li a:focus,
+.address ul li a:focus {
+    color: #404BBF;
+}
+
+.nav ul li a:active {
+    color: #404BBF;
+    text-decoration: underline;
+}

@@ -1,0 +1,13 @@
+.team {
+    background-color: #F4F4FD;
+}
+
+.team .team-card {
+    background-color: #FFF;
+    box-shadow: 0 1px 6px 0 #2E2F4214;
+
+}
+
+.team .team-card p {
+    text-align: center;
+}

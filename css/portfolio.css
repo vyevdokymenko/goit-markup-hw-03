@@ -1,0 +1,14 @@
+.portfolio .project-card {
+    background-color: #FFF;
+}
+
+.portfolio .project-card-description {
+    border-width: 1px;
+    border-top-width: 0;
+    border-style: solid;
+    border-color: #E7E9FC;
+}
+
+.portfolio .project-card-description h3 {
+    text-align: left;
+}

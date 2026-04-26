@@ -1,0 +1,25 @@
+.hero {
+    background-color: #2E2F42;
+}
+
+.hero h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    color: white;
+}
+
+.hero .order {
+    background-color: #4D5AE5;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.hero .order:hover,
+.hero .order:focus {
+    background-color: #404BBF;
+    box-shadow: 0 4px 4px 0 #00000026;
+}
