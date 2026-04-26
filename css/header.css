@@ -1,5 +1,26 @@
+.header {
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.header .container {
+    height: 72px;
+    border: 1px solid red;
+    justify-content: space-between;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+.header .container .nav ul,
+.header .container .address ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
 .header .logo {
     color: #2E2F42;
+
 }
 
 .nav ul li a {
