@@ -4,7 +4,6 @@
 
 .header .container {
     height: 72px;
-    border: 1px solid red;
     justify-content: space-between;
     padding: 0 15px;
     display: flex;
