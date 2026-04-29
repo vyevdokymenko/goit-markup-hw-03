@@ -11,6 +11,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     color: #2E2F42;
     text-align: center;
+    margin: 0;
 }
 
 h2 {
@@ -39,6 +40,10 @@ a {
     letter-spacing: 0.02em;
 }
 
+p {
+    margin: 0;
+}
+
 button, button:focus, button:hover, button:active {
     border: none;
 }
@@ -59,4 +64,5 @@ button, button:focus, button:hover, button:active {
 .container {
     width: 1158px;
     margin: 0 auto;
+    padding: 0 15px;
 }
