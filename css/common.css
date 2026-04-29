@@ -66,3 +66,7 @@ button, button:focus, button:hover, button:active {
     margin: 0 auto;
     padding: 0 15px;
 }
+
+.section {
+    padding: 120px 0;
+}

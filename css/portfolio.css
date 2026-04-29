@@ -1,14 +1,34 @@
-.portfolio .project-card {
-    background-color: #FFF;
+.portfolio .container {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
 }
 
-.portfolio .project-card-description {
+.project-list {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 360px;
+}
+
+.project-card .card-content {
     border-width: 1px;
     border-top-width: 0;
     border-style: solid;
     border-color: #E7E9FC;
+    padding: 32px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    overflow: hidden;
 }
 
-.portfolio .project-card-description h3 {
+.project-card .card-content h3 {
     text-align: left;
 }
