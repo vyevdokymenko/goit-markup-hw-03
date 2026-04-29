@@ -6,7 +6,8 @@
 
 .project-list {
     display: flex;
-    gap: 24px;
+    row-gap: 48px;
+    column-gap: 24px;
     flex-wrap: wrap;
 }
 
@@ -15,6 +16,10 @@
     display: flex;
     flex-direction: column;
     flex-basis: 360px;
+}
+
+.project-card img {
+    display: block;
 }
 
 .project-card .card-content {

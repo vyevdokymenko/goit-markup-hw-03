@@ -23,6 +23,10 @@
     overflow: hidden;
 }
 
+.team-card img {
+    display: block;
+}
+
 .card-content {
     display: flex;
     flex-direction: column;

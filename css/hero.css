@@ -1,15 +1,14 @@
 .hero {
     background-color: #2E2F42;
-    height: 600px;
     padding: 188px 0;
 }
 
 .hero .container {
     display: flex;
     flex-direction: column;
-    height: 224px;
     align-items: center;
     justify-content: space-between;
+    gap: 48px;
 }
 
 .hero h1 {
@@ -18,7 +17,6 @@
     line-height: 1.07;
     color: white;
     max-width: 496px;
-    margin: 0;
 }
 
 .hero .order {
